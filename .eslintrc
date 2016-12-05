@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "babel"
+  ],
+  "rules": {
+    "no-shadow": 0,
+    "no-param-reassign": 0,
+    "no-return-assign": 0,
+    "prefer-template": 0,
+    "global-require": 0,
+    "no-console": 0,
+    "no-alert": 0,
+    "no-unused-vars": 0,
+    "no-confusing-arrow": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_this"
+        ]
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 180,
+        "tabWidth": 4,
+        "ignoreUrls": true
+      }
+    ]
+  }
+}
